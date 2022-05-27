@@ -14,7 +14,7 @@ public class Ejecutor {
         // nombre del archivo
         String nombreArchivo = "profesores.data";
         
-        Profesor profesor1 = new Profesor("Tara Hernandez", "contratado");
+        Profesor profesor1 = new Profesor("Tara Julio", "contratado");
         Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
 
