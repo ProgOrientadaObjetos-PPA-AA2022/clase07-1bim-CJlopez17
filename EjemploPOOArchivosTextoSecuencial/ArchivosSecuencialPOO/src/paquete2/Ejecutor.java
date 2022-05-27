@@ -14,9 +14,9 @@ public class Ejecutor {
         // nombre del archivo
         String nombreArchivo = "profesores2.txt";
         
-        Profesor profesor1 = new Profesor("Tara Hernandez", "contratado");
-        Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
-        Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
+        Profesor profesor1 = new Profesor("Julio Alvarez", "contratado");
+        Profesor profesor2 = new Profesor("Maria Encalada", "nombramiento");
+        Profesor profesor3 = new Profesor("Samuel Pardo", "nombramiento");
         
         
         ArchivoEscritura archivo = new ArchivoEscritura(nombreArchivo);

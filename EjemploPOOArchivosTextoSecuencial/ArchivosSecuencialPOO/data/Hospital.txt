@@ -1,0 +1,3 @@
+Basicod de Catacocha;800;10540,35
+San Pedro;840;19054,00
+Lopes Yaguna;3200;45000,00

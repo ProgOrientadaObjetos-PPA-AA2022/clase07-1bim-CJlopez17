@@ -28,30 +28,7 @@ public class ArchivoEscritura {
         
     }
 
-    public void establecerInformacionAnterior() {
-        
-        
-        ArchivoLectura lectura = new ArchivoLectura(nombreArchivo);
-        lectura.establecerLista();
-        ArrayList<Calificacion> lista = lectura.obtenerLista();
-        
-        try {
-            salidaArchivo = new Formatter(rutaArchivo);
-            if (lista != null) {
-                
-                if (lista.size() > 0) {
-                    for (int i = 0; i < lista.size(); i++) {
-                
-                        establecerRegistro(lista.get(i));
-                        establecerSalida();
-                    }
-                }
-            }
-        } catch (FileNotFoundException e) {
-            System.err.println("Error al leer del archivo: " + e);
-
-        } // fin de catch
-    }
+    
     
     public void establecerNombreArchivo(String n) {
         nombreArchivo = n;
